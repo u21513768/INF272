@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CourseAssignmentsMarking">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="CourseID" Type="Int32" Nullable="false" />
+    <Property Name="MarkerID" Type="Int32" Nullable="false" />
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cours" Relationship="DB2Model.FK_CourseAssignmentsMarking_Courses" FromRole="CourseAssignmentsMarking" ToRole="Cours" />
+    <NavigationProperty Name="Staff" Relationship="DB2Model.FK_CourseAssignmentsMarking_Staff" FromRole="CourseAssignmentsMarking" ToRole="Staff" />
+    <NavigationProperty Name="Student" Relationship="DB2Model.FK_CourseAssignmentsMarking_Students" FromRole="CourseAssignmentsMarking" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Cours">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="350" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CourseAssignmentsMarkings" Relationship="DB2Model.FK_CourseAssignmentsMarking_Courses" FromRole="Cours" ToRole="CourseAssignmentsMarking" />
+  </EntityType>
+  <EntityType Name="Staff">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CourseAssignmentsMarkings" Relationship="DB2Model.FK_CourseAssignmentsMarking_Staff" FromRole="Staff" ToRole="CourseAssignmentsMarking" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CourseAssignmentsMarkings" Relationship="DB2Model.FK_CourseAssignmentsMarking_Students" FromRole="Student" ToRole="CourseAssignmentsMarking" />
+  </EntityType>
+  <EntityContainer Name="DB2Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CourseAssignmentsMarkings" EntityType="Self.CourseAssignmentsMarking" />
+    <EntitySet Name="Courses" EntityType="Self.Cours" />
+    <EntitySet Name="Staffs" EntityType="Self.Staff" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <AssociationSet Name="FK_CourseAssignmentsMarking_Courses" Association="DB2Model.FK_CourseAssignmentsMarking_Courses">
+      <End Role="Cours" EntitySet="Courses" />
+      <End Role="CourseAssignmentsMarking" EntitySet="CourseAssignmentsMarkings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseAssignmentsMarking_Staff" Association="DB2Model.FK_CourseAssignmentsMarking_Staff">
+      <End Role="Staff" EntitySet="Staffs" />
+      <End Role="CourseAssignmentsMarking" EntitySet="CourseAssignmentsMarkings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseAssignmentsMarking_Students" Association="DB2Model.FK_CourseAssignmentsMarking_Students">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="CourseAssignmentsMarking" EntitySet="CourseAssignmentsMarkings" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_CourseAssignmentsMarking_Courses">
+    <End Type="DB2Model.Cours" Role="Cours" Multiplicity="1" />
+    <End Type="DB2Model.CourseAssignmentsMarking" Role="CourseAssignmentsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cours">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CourseAssignmentsMarking">
+        <PropertyRef Name="CourseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseAssignmentsMarking_Staff">
+    <End Type="DB2Model.Staff" Role="Staff" Multiplicity="1" />
+    <End Type="DB2Model.CourseAssignmentsMarking" Role="CourseAssignmentsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Staff">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CourseAssignmentsMarking">
+        <PropertyRef Name="MarkerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseAssignmentsMarking_Students">
+    <End Type="DB2Model.Student" Role="Student" Multiplicity="1" />
+    <End Type="DB2Model.CourseAssignmentsMarking" Role="CourseAssignmentsMarking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CourseAssignmentsMarking">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
