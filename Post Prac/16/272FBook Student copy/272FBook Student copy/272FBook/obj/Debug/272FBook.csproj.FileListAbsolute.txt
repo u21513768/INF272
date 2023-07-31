@@ -1,0 +1,236 @@
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\272FBook.dll.config
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\272FBook.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\272FBook.pdb
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\csc.exe
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\csc.exe.config
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\csc.rsp
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\csi.exe
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\csi.exe.config
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\csi.rsp
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.AppContext.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Console.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Net.Http.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\vbc.exe
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\vbc.exe.config
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\vbc.rsp
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\Antlr3.Runtime.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\Newtonsoft.Json.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.Helpers.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.Mvc.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.Optimization.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.Razor.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.WebPages.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.WebPages.Razor.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\WebGrease.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.Helpers.xml
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.Mvc.xml
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.Optimization.xml
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.Razor.xml
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.WebPages.xml
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\System.Web.WebPages.Razor.xml
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\Newtonsoft.Json.xml
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\Antlr3.Runtime.pdb
+C:\Users\Zola\source\repos\272FBook\272FBook\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zola\source\repos\272FBook\272FBook\obj\Debug\272FBook.csproj.CoreCompileInputs.cache
+C:\Users\Zola\source\repos\272FBook\272FBook\obj\Debug\272FBook.csproj.CopyComplete
+C:\Users\Zola\source\repos\272FBook\272FBook\obj\Debug\272FBook.dll
+C:\Users\Zola\source\repos\272FBook\272FBook\obj\Debug\272FBook.pdb
+C:\Users\Zola\source\repos\272FBook\272FBook\obj\Debug\272FBook.csproj.AssemblyReference.cache
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\272FBook.dll.config
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\272FBook.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\272FBook.pdb
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\csc.exe
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\csc.exe.config
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\csc.rsp
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\csi.exe
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\csi.exe.config
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\csi.rsp
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.AppContext.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Console.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.IO.Compression.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Net.Http.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Net.Sockets.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.ValueTuple.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Xml.XPath.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\vbc.exe
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\vbc.exe.config
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\vbc.rsp
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\VBCSCompiler.exe
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\Antlr3.Runtime.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\Newtonsoft.Json.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.Helpers.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.Mvc.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.Optimization.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.Razor.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.WebPages.Deployment.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.WebPages.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.WebPages.Razor.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\WebGrease.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.Helpers.xml
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.Mvc.xml
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.Optimization.xml
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.Razor.xml
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.WebPages.xml
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.WebPages.Deployment.xml
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\System.Web.WebPages.Razor.xml
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\Newtonsoft.Json.xml
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\Antlr3.Runtime.pdb
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\obj\Debug\272FBook.csproj.AssemblyReference.cache
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\obj\Debug\272FBook.csproj.CoreCompileInputs.cache
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\obj\Debug\272FBook.csproj.CopyComplete
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\obj\Debug\272FBook.dll
+C:\Users\U11186438\Downloads\272FBook Student copy\272FBook\obj\Debug\272FBook.pdb
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\272FBook.dll.config
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\272FBook.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\272FBook.pdb
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\csc.exe
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\csc.exe.config
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\csc.rsp
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\csi.exe
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\csi.exe.config
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\csi.rsp
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.AppContext.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Collections.Immutable.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Console.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Globalization.Calendars.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.IO.Compression.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.IO.FileSystem.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Net.Http.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Net.Sockets.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Reflection.Metadata.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.ValueTuple.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Xml.XPath.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\vbc.exe
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\vbc.exe.config
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\vbc.rsp
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\VBCSCompiler.exe
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\roslyn\VBCSCompiler.exe.config
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\Antlr3.Runtime.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\Microsoft.Web.Infrastructure.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\Newtonsoft.Json.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.Helpers.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.Mvc.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.Optimization.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.Razor.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.WebPages.Deployment.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.WebPages.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.WebPages.Razor.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\WebGrease.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.Helpers.xml
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.Mvc.xml
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.Optimization.xml
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.Razor.xml
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.WebPages.xml
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.WebPages.Deployment.xml
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\System.Web.WebPages.Razor.xml
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\Newtonsoft.Json.xml
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\Antlr3.Runtime.pdb
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\obj\Debug\272FBook.csproj.AssemblyReference.cache
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\obj\Debug\272FBook.csproj.CoreCompileInputs.cache
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\obj\Debug\272FBook.dll
+C:\Web projects\INF 272\Post Prac\16\272FBook Student copy\272FBook Student copy\272FBook\obj\Debug\272FBook.pdb

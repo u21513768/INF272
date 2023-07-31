@@ -1,0 +1,182 @@
+﻿@{ ViewBag.Title = "Index"; }
+
+<h1>INF272 - Entity Framework Activity 01</h1>
+<hr />
+<div class="container" style="height: 400px; overflow: auto;">
+
+    <h3>Getting started</h3>
+    <p>
+        This program uses Entity Framework (Code-First) with seed data that is found in one of the classes.
+        <u>
+            You will have to change and update the connection string to be able to generate the database that
+            you will use for this program.
+        </u> You will NOT have to run any SQL Scripts as the program will
+        generate all the data to be used in the program for you.
+        Entity Framework has already been installed as a Nuget Package. You
+        will also note that the code has been cleaned up and that no
+        unnecessary "System Uses" are present in the code window headers.
+    </p>
+    <h4 align="justify">
+        <strong>Please note the following in the application code:</strong>
+    </h4>
+    <ul>
+        <li>
+            Note how Data Seeding works in Code First as you will
+            need to append and adapt it.
+        </li>
+        <li>
+            Note how Data Annotations work in the provided classes in the Model folder.
+            The models will process (handle) the data from the newly generated SQL
+            database. Make use of relevant Data Annotations where required. Be careful
+            and keep it to simple integers, lists (normal list, IEnumerables and
+            ICollections) as well as strings. You can limit the length of a string if
+            required.
+        </li>
+        <li style="height: 22px">
+            All buttons have a 160px width to ensure that, when resizing the window, the
+            buttons remain where they are.
+        </li>
+        <li>
+            The simple reason we focus on Code First is as it allows
+            you how to understand the Model and the Database First approach much better.
+        </li>
+        <li>
+            There is limited internal documentation that will allow you to take note of
+            a few relevant and interesting items.
+        </li>
+        <li>
+            There is Entity Framework generated code and you will need to generate some
+            additional code by adding a relevant Controller and relevant CRUD views.
+        </li>
+        <li>
+            You will need to add the relevant Navigation Items to the layout page to be
+            able to browse.
+        </li>
+        <li>
+            You will notice a lot of code is repetitive and you may borrow and use the
+            repetitive code as seen fit.
+        </li>
+        <li>
+            Please note, that the database makes use of Delete Cascade. This means that
+            any Parent Entity items that are deleted, will delete the associated row in
+            the related entity. To repair this and change it to Set Null, one would have
+            to add your own application code. We will not focus on this at this time.
+        </li>
+    </ul>
+    <p>
+        To ensure general functionality, please make sure to follow the indicated
+        steps. If you do not follow the steps then you will not be able to load and
+        force the database. To test you might need to delete the seed database a few
+        times to ensure that all functionality is there.
+    </p>
+    <ul>
+        <li>
+            Step 1 – Make sure that SQL Server is open, up and running.
+            You might need to start the SQL Server Services to open SQL Server
+            Management Studio.
+        </li>
+        <li>
+            Step 2 – Open the web.config file and change the connection string.
+            You will see where to change the string stipulated later on in this
+            page.
+        </li>
+        <li>
+            Step 3 – After updating the connection string, you will have to clean
+            and rebuild the project. After this, look at the Server Explorer (left-hand
+            of the screen of Visual Studio, and refresh the server. This will enable the
+            connection between Visual Studio and SQL Server.
+        </li>
+    </ul>
+
+    <p>
+        You cannot use the Server Explorer for this as it will not generate the Seed Data appropriately.
+        <b>You will have to change the connection string in the <u>Web.Config</u> file directly.</b>
+    </p>
+
+    <p>
+        After you have done all of this, then your program is ready for
+        finalization
+    </p>
+    <p>
+        Follow the guidelines and stipulations as found below.
+    </p>
+    <h3>Program smartly.</h3>
+    <p>
+        Make sure that one section works and then duplicate and update it for the other sections. <b><u>Some sections make use of repetitive code sequences.</u></b> The nature of the data being used and access from the database is all that will change.
+        <b><u>Think before you code. Understand what is required.</u></b>
+    </p>
+    <h3>Connection String</h3>
+    <p>
+        Make sure to look for the data source in the connection. It is close to the top of the Web.Config
+        file. You will have to update / change the server detail as indicated bellow:
+    </p>
+    <p>
+        <b>....."Data Source=<u>SAMURAI_JACK\SQLEXPRESS</u>; Initial Catalog=ListDB;......</b>
+    </p>
+    <p>
+        <b>
+            Care has been taken to avoid unnecessary coding challenges.
+            However, you might find that the model details in the views could give
+            you null exceptions until all Controllers have been finalized.
+        </b>
+    </p>
+    <p>
+        <b>When you complete this program appropriately these concerns should disappear.</b>
+    </p>
+
+    <h4 style="color: red">
+        Initial load will take a couple of second as the
+        database is being built as forced by Visual Studio.
+    </h4>
+    <h3>Major Tasks</h3>
+    <ol>
+        <li>
+            Contemplate and consider the models that you have been provided. You
+            have been provided with two main models that are data handlers. You have
+            been provided with one model that creates the database and one model that
+            seed the data in the database. You will need to eventually add additional
+            seed data to the initializer.
+        </li>
+        <li>
+            In total you have been provided with 4 models. Carefully inspect the
+            code in the models. You will have to create a new model with an id and a
+            description. Link this model to List.cs.
+        </li>
+        <li>
+            Update ListDBContext to accomodate the model. Note the model builder
+            that you have been provided with. You will need an additional modelbuilder
+            and DBSet in the context file.
+        </li>
+        <li>
+            Consider the Initializer. You will have to add additional seed date to
+            accomodate your new model. The seed data will be required for your database.
+        </li>
+        <li>
+            Update your database. You might need to delete the first load if you
+            have already created it so that the seed populates correctly.
+        </li>
+        <li>Add new Controller using Entity Framework.</li>
+        <li>
+            Edit and update the new views that has been generated as not all the
+            views will work perfectly as intended. This is perfectly normal and to be
+            expected.
+        </li>
+        <li>
+            Test, modify and update where required until the entire project is
+            functional. Note, you will have to test from the index.cshtml files. Testing
+            from other views may not necessarily provide functionality and WILL provide
+            server errors. These are model access errors as you cannot execute Actions
+            from some of the views without data from an initialized part of the
+            auto generated code.
+        </li>
+        <li>
+            If all work perfectly well, you will be able to CRUD all parts of the
+            project and the CRUDs from the Parent entities will cascade and remove the
+            associated row from the child entity (as managed by MyListController.cs).
+        </li>
+        <li>
+            You might need to complete tasks as not listed above to ensure
+            functionality. Test, code and retest. This is normal and to be expected.
+        </li>
+    </ol>
+</div>

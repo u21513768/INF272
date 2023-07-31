@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ClassActivity.Models.ListItemType>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>My List of Items</h3>
+
+<br />
+<table class="table" width="100%">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.First().ListItemTypeDescription)</th>
+        <th>@Html.ActionLink("Add List Item", "Create", null, new { @class = "btn btn-primary btn-sm pull-right" })</th>
+    </tr>
+    @foreach (var item in Model)
+        {
+    <tr>
+        <td>@Html.DisplayFor(modelItem => item.ListItemTypeDescription)</td>
+        <td width="160px">
+            <div align="right">
+                @Html.ActionLink("Details", "Details", new { id = item.ListItemTypeID }, new { @class = "btn btn-success btn-xs" })
+                @Html.ActionLink("Edit", "Edit", new { id = item.ListItemTypeID }, new { @class = "btn btn-warning btn-xs" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.ListItemTypeID }, new { @class = "btn btn-danger btn-xs" })
+            </div>
+        </td>
+    </tr>
+        }
+</table>

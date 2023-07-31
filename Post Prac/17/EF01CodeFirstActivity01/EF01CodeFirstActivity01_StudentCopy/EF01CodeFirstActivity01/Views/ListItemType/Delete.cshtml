@@ -1,0 +1,29 @@
+﻿@model ClassActivity.Models.ListItemType
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h3></h3>
+<hr />
+<table class="table-bordered" width="100%">
+    <tr>
+        <th width="25%">Description</th>
+        <th width="75%">Details</th>
+    </tr>
+    <tr>
+        <td><b>@Html.DisplayNameFor(model => model.ListItemTypeDescription)</b></td>
+        <td>@Html.DisplayFor(model => model.ListItemTypeDescription)</td>
+    </tr>
+</table>
+<br />
+<p>
+    @using (Html.BeginForm())
+        {
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-danger  btn-sm" />
+        @Html.ActionLink("Back to List Type", "Index", null, new { @class = "btn btn-primary btn-sm" })
+    </div>
+        }

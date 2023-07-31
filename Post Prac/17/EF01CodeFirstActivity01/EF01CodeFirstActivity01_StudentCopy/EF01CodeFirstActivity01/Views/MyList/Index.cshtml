@@ -1,0 +1,37 @@
+﻿@model IEnumerable<ClassActivity.Models.List>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>My List of Items</h3>
+
+<br />
+<table class="table" width="100%">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.First().ListCode)</th>
+        <th>@Html.DisplayNameFor(model => model.First().Name)</th>
+        <th>@Html.DisplayNameFor(model => model.First().Description)</th>
+        <th>@Html.DisplayNameFor(model => model.First().ListItemType)</th>
+        <th>@Html.DisplayNameFor(model => model.First().Priority)</th>
+
+        <th>@Html.ActionLink("Add List Item", "Create", null, new { @class = "btn btn-primary btn-sm pull-right" })</th>
+    </tr>
+    @foreach (var item in Model)
+        {
+<tr>
+    <td>@Html.DisplayFor(modelItem => item.ListCode)</td>
+    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+    <td>@Html.DisplayFor(modelItem => item.Description)</td>
+    <td>@Html.DisplayFor(modelItem => item.ListItemType.ListItemTypeDescription)</td>
+    <td>@Html.DisplayFor(modelItem => item.Priority.PriorityDescription)</td>
+
+    <td width="160px">
+        <div align="right">
+            @Html.ActionLink("Details", "Details", new { id = item.ListID }, new { @class = "btn btn-success btn-xs" })
+            @Html.ActionLink("Edit", "Edit", new { id = item.ListID }, new { @class = "btn btn-warning btn-xs" })
+            @Html.ActionLink("Delete", "Delete", new { id = item.ListID }, new { @class = "btn btn-danger btn-xs" })
+        </div>
+    </td>
+</tr>
+        }
+</table>

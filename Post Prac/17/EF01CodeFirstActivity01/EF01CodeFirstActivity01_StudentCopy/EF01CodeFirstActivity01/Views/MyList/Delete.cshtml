@@ -1,0 +1,46 @@
+﻿@model ClassActivity.Models.List
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h3></h3>
+<h2>Are you sure you want to delete <b>@Html.DisplayFor(model => model.Name)</b>?</h2>
+<hr />
+<table class="table-bordered" width="100%">
+    <tr>
+        <th width="25%">Description</th>
+        <th width="75%">Details</th>
+    </tr>
+    <tr>
+        <td><b>@Html.DisplayNameFor(model => model.ListCode)</b></td>
+        <td>@Html.DisplayFor(model => model.ListCode)</td>
+    </tr>
+    <tr>
+        <td><b>@Html.DisplayNameFor(model => model.Name)</b></td>
+        <td>@Html.DisplayFor(model => model.Name)</td>
+    </tr>
+    <tr>
+        <td><b>@Html.DisplayNameFor(model => model.Description)</b></td>
+        <td>@Html.DisplayFor(model => model.Description)</td>
+    </tr>
+    <tr>
+        <td><b>@Html.DisplayNameFor(model => model.ListItemType.ListItemTypeDescription)</b></td>
+        <td>@Html.DisplayFor(model => model.ListItemType.ListItemTypeDescription)</td>
+    </tr>
+    <tr>
+        <td><b>@Html.DisplayNameFor(model => model.Priority.PriorityDescription)</b></td>
+        <td>@Html.DisplayFor(model => model.Priority.PriorityDescription)</td>
+    </tr>
+</table>
+<br />
+<p>
+    @using (Html.BeginForm())
+        {
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-danger  btn-sm" />
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-primary btn-sm" })
+    </div>
+        }
