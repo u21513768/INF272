@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExampleDatabaseModelStoreContainer" CdmEntityContainer="ExampleDatabaseEntities">
+    <EntitySetMapping Name="ExampleTables">
+      <EntityTypeMapping TypeName="ExampleDatabaseModel.ExampleTable">
+        <MappingFragment StoreEntitySet="ExampleTable">
+          <ScalarProperty Name="SimpleID" ColumnName="SimpleID" />
+          <ScalarProperty Name="SimpleAttribute" ColumnName="SimpleAttribute" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

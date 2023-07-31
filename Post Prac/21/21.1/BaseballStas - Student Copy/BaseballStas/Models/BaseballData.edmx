@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BaseballDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="halloffame">
+          <Key>
+            <PropertyRef Name="hofID" />
+            <PropertyRef Name="yearID" />
+          </Key>
+          <Property Name="hofID" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="yearID" Type="int" Nullable="false" />
+          <Property Name="votedBy" Type="varchar" MaxLength="64" />
+          <Property Name="ballots" Type="int" />
+          <Property Name="needed" Type="int" />
+          <Property Name="votes" Type="int" />
+          <Property Name="inducted" Type="varchar" MaxLength="1" />
+          <Property Name="category" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="managers">
+          <Key>
+            <PropertyRef Name="yearID" />
+            <PropertyRef Name="teamID" />
+            <PropertyRef Name="inseason" />
+          </Key>
+          <Property Name="managerID" Type="varchar" MaxLength="10" />
+          <Property Name="yearID" Type="int" Nullable="false" />
+          <Property Name="teamID" Type="varchar" MaxLength="3" Nullable="false" />
+          <Property Name="lgID" Type="varchar" MaxLength="2" />
+          <Property Name="inseason" Type="int" Nullable="false" />
+          <Property Name="G" Type="int" />
+          <Property Name="W" Type="int" />
+          <Property Name="L" Type="int" />
+          <Property Name="rank" Type="int" />
+          <Property Name="plyrMgr" Type="varchar" MaxLength="1" />
+        </EntityType>
+        <EntityType Name="players">
+          <Key>
+            <PropertyRef Name="lahmanID" />
+          </Key>
+          <Property Name="lahmanID" Type="int" Nullable="false" />
+          <Property Name="playerID" Type="varchar" MaxLength="10" />
+          <Property Name="managerID" Type="varchar" MaxLength="10" />
+          <Property Name="hofID" Type="varchar" MaxLength="10" />
+          <Property Name="birthYear" Type="int" />
+          <Property Name="birthMonth" Type="int" />
+          <Property Name="birthDay" Type="int" />
+          <Property Name="birthCountry" Type="varchar" MaxLength="50" />
+          <Property Name="birthState" Type="varchar" MaxLength="2" />
+          <Property Name="birthCity" Type="varchar" MaxLength="50" />
+          <Property Name="deathYear" Type="int" />
+          <Property Name="deathMonth" Type="int" />
+          <Property Name="deathDay" Type="int" />
+          <Property Name="deathCountry" Type="varchar" MaxLength="50" />
+          <Property Name="deathState" Type="varchar" MaxLength="2" />
+          <Property Name="deathCity" Type="varchar" MaxLength="50" />
+          <Property Name="nameFirst" Type="varchar" MaxLength="50" />
+          <Property Name="nameLast" Type="varchar" MaxLength="50" />
+          <Property Name="nameNote" Type="varchar" MaxLength="255" />
+          <Property Name="nameGiven" Type="varchar" MaxLength="255" />
+          <Property Name="nameNick" Type="varchar" MaxLength="255" />
+          <Property Name="weight" Type="int" />
+          <Property Name="height" Type="int" />
+          <Property Name="bats" Type="varchar" MaxLength="1" />
+          <Property Name="throws" Type="varchar" MaxLength="1" />
+          <Property Name="debut" Type="varchar" MaxLength="10" />
+          <Property Name="finalGame" Type="varchar" MaxLength="10" />
+          <Property Name="college" Type="varchar" MaxLength="50" />
+          <Property Name="lahman40ID" Type="varchar" MaxLength="9" />
+          <Property Name="lahman45ID" Type="varchar" MaxLength="9" />
+          <Property Name="retroID" Type="varchar" MaxLength="9" />
+          <Property Name="holtzID" Type="varchar" MaxLength="9" />
+          <Property Name="bbrefID" Type="varchar" MaxLength="9" />
+        </EntityType>
+        <EntityContainer Name="BaseballDataModelStoreContainer">
+          <EntitySet Name="halloffame" EntityType="Self.halloffame" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="managers" EntityType="Self.managers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="players" EntityType="Self.players" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BaseballDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="halloffame">
+          <Key>
+            <PropertyRef Name="hofID" />
+            <PropertyRef Name="yearID" />
+          </Key>
+          <Property Name="hofID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="yearID" Type="Int32" Nullable="false" />
+          <Property Name="votedBy" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="ballots" Type="Int32" />
+          <Property Name="needed" Type="Int32" />
+          <Property Name="votes" Type="Int32" />
+          <Property Name="inducted" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="category" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="manager">
+          <Key>
+            <PropertyRef Name="yearID" />
+            <PropertyRef Name="teamID" />
+            <PropertyRef Name="inseason" />
+          </Key>
+          <Property Name="managerID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="yearID" Type="Int32" Nullable="false" />
+          <Property Name="teamID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="lgID" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="inseason" Type="Int32" Nullable="false" />
+          <Property Name="G" Type="Int32" />
+          <Property Name="W" Type="Int32" />
+          <Property Name="L" Type="Int32" />
+          <Property Name="rank" Type="Int32" />
+          <Property Name="plyrMgr" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="player">
+          <Key>
+            <PropertyRef Name="lahmanID" />
+          </Key>
+          <Property Name="lahmanID" Type="Int32" Nullable="false" />
+          <Property Name="playerID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="managerID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="hofID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="birthYear" Type="Int32" />
+          <Property Name="birthMonth" Type="Int32" />
+          <Property Name="birthDay" Type="Int32" />
+          <Property Name="birthCountry" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="birthState" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="birthCity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="deathYear" Type="Int32" />
+          <Property Name="deathMonth" Type="Int32" />
+          <Property Name="deathDay" Type="Int32" />
+          <Property Name="deathCountry" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="deathState" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="deathCity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nameFirst" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nameLast" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nameNote" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="nameGiven" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="nameNick" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="weight" Type="Int32" />
+          <Property Name="height" Type="Int32" />
+          <Property Name="bats" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="throws" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="debut" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="finalGame" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="college" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="lahman40ID" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="lahman45ID" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="retroID" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="holtzID" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+          <Property Name="bbrefID" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="BaseballDataEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="halloffames" EntityType="Self.halloffame" />
+          <EntitySet Name="managers" EntityType="Self.manager" />
+          <EntitySet Name="players" EntityType="Self.player" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BaseballDataModelStoreContainer" CdmEntityContainer="BaseballDataEntities">
+          <EntitySetMapping Name="halloffames">
+            <EntityTypeMapping TypeName="BaseballDataModel.halloffame">
+              <MappingFragment StoreEntitySet="halloffame">
+                <ScalarProperty Name="hofID" ColumnName="hofID" />
+                <ScalarProperty Name="yearID" ColumnName="yearID" />
+                <ScalarProperty Name="votedBy" ColumnName="votedBy" />
+                <ScalarProperty Name="ballots" ColumnName="ballots" />
+                <ScalarProperty Name="needed" ColumnName="needed" />
+                <ScalarProperty Name="votes" ColumnName="votes" />
+                <ScalarProperty Name="inducted" ColumnName="inducted" />
+                <ScalarProperty Name="category" ColumnName="category" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="managers">
+            <EntityTypeMapping TypeName="BaseballDataModel.manager">
+              <MappingFragment StoreEntitySet="managers">
+                <ScalarProperty Name="managerID" ColumnName="managerID" />
+                <ScalarProperty Name="yearID" ColumnName="yearID" />
+                <ScalarProperty Name="teamID" ColumnName="teamID" />
+                <ScalarProperty Name="lgID" ColumnName="lgID" />
+                <ScalarProperty Name="inseason" ColumnName="inseason" />
+                <ScalarProperty Name="G" ColumnName="G" />
+                <ScalarProperty Name="W" ColumnName="W" />
+                <ScalarProperty Name="L" ColumnName="L" />
+                <ScalarProperty Name="rank" ColumnName="rank" />
+                <ScalarProperty Name="plyrMgr" ColumnName="plyrMgr" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="players">
+            <EntityTypeMapping TypeName="BaseballDataModel.player">
+              <MappingFragment StoreEntitySet="players">
+                <ScalarProperty Name="lahmanID" ColumnName="lahmanID" />
+                <ScalarProperty Name="playerID" ColumnName="playerID" />
+                <ScalarProperty Name="managerID" ColumnName="managerID" />
+                <ScalarProperty Name="hofID" ColumnName="hofID" />
+                <ScalarProperty Name="birthYear" ColumnName="birthYear" />
+                <ScalarProperty Name="birthMonth" ColumnName="birthMonth" />
+                <ScalarProperty Name="birthDay" ColumnName="birthDay" />
+                <ScalarProperty Name="birthCountry" ColumnName="birthCountry" />
+                <ScalarProperty Name="birthState" ColumnName="birthState" />
+                <ScalarProperty Name="birthCity" ColumnName="birthCity" />
+                <ScalarProperty Name="deathYear" ColumnName="deathYear" />
+                <ScalarProperty Name="deathMonth" ColumnName="deathMonth" />
+                <ScalarProperty Name="deathDay" ColumnName="deathDay" />
+                <ScalarProperty Name="deathCountry" ColumnName="deathCountry" />
+                <ScalarProperty Name="deathState" ColumnName="deathState" />
+                <ScalarProperty Name="deathCity" ColumnName="deathCity" />
+                <ScalarProperty Name="nameFirst" ColumnName="nameFirst" />
+                <ScalarProperty Name="nameLast" ColumnName="nameLast" />
+                <ScalarProperty Name="nameNote" ColumnName="nameNote" />
+                <ScalarProperty Name="nameGiven" ColumnName="nameGiven" />
+                <ScalarProperty Name="nameNick" ColumnName="nameNick" />
+                <ScalarProperty Name="weight" ColumnName="weight" />
+                <ScalarProperty Name="height" ColumnName="height" />
+                <ScalarProperty Name="bats" ColumnName="bats" />
+                <ScalarProperty Name="throws" ColumnName="throws" />
+                <ScalarProperty Name="debut" ColumnName="debut" />
+                <ScalarProperty Name="finalGame" ColumnName="finalGame" />
+                <ScalarProperty Name="college" ColumnName="college" />
+                <ScalarProperty Name="lahman40ID" ColumnName="lahman40ID" />
+                <ScalarProperty Name="lahman45ID" ColumnName="lahman45ID" />
+                <ScalarProperty Name="retroID" ColumnName="retroID" />
+                <ScalarProperty Name="holtzID" ColumnName="holtzID" />
+                <ScalarProperty Name="bbrefID" ColumnName="bbrefID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<ImportExportPractical.Models.OrderItem>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Orders</h2>
+
+<hr />
+
+@* Edit Below *@
+
+<script type="text/javascript">
+    function Submit() {
+            if (confirm("Are you sure you want to submit ?")) {
+                document.getElementById('anchortag').href += "?isTrue=true";
+            } else {
+                document.getElementById('anchortag').href += "?isTrue=false";
+            }
+            return true;
+        }
+</script>
+
+@Html.ActionLink("Export", "ExportCustomers", "Orders", new { @onclick = "return Submit();", id = "anchortag" })
+
+<br />
+<br />
+
+<table class="table">
+    @*Create a table in the Index view to display the Order Number; Product Name;
+        Supplier Name; Supplier Contact Number; Unit Price; Quantity; and Total (quantity
+        multiplied with the unit price) columns.*@
+    <tr>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Order.OrderNumber)*@
+            Order Number
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Product.ProductName)*@
+            Product Name
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Product.Supplier.CompanyName)*@
+            Supplier Name
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Product.Supplier.Phone)*@
+            Supplier Contact Number
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Product.UnitPrice)*@
+            Unit Price
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.Quantity)*@
+            Quantity
+        </th>
+        <th>
+            Total
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Order.OrderNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Supplier.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Supplier.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.UnitPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            @{
+                var total = item.Quantity * item.Product.UnitPrice;
+            }
+            <td>
+                @total
+            </td>
+
+        </tr>
+    }
+</table>

@@ -1,0 +1,208 @@
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\BaseballStas.dll.config
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\BaseballStas.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\BaseballStas.pdb
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\Antlr3.Runtime.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\EntityFramework.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\EntityFramework.SqlServer.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\JetBrains.Annotations.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\Newtonsoft.Json.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\PagedList.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\PagedList.Mvc.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.Helpers.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.Mvc.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.Optimization.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.Razor.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.WebPages.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.WebPages.Razor.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\WebGrease.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\EntityFramework.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\EntityFramework.SqlServer.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\JetBrains.Annotations.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\PagedList.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\PagedList.Mvc.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.Helpers.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.Mvc.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.Optimization.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.Razor.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.WebPages.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\System.Web.WebPages.Razor.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\Newtonsoft.Json.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\Antlr3.Runtime.pdb
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\obj\Debug\BaseballStas.csproj.CoreCompileInputs.cache
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\obj\Debug\BaseballStas.csproj.CopyComplete
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\obj\Debug\BaseballStas.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\obj\Debug\BaseballStas.pdb
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\csc.exe
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\csc.exe.config
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\csc.rsp
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\csi.exe
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\csi.exe.config
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\csi.rsp
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\System.Buffers.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\System.Memory.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\vbc.exe
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\vbc.exe.config
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\vbc.rsp
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\VBCSCompiler.exe
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas\BaseballStas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\BaseballStas.dll.config
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\BaseballStas.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\BaseballStas.pdb
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csc.exe
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csc.exe.config
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csc.rsp
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csi.exe
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csi.exe.config
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csi.rsp
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Buffers.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Memory.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\vbc.exe
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\vbc.exe.config
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\vbc.rsp
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\VBCSCompiler.exe
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\Antlr3.Runtime.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\EntityFramework.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\EntityFramework.SqlServer.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\JetBrains.Annotations.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\Newtonsoft.Json.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\PagedList.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\PagedList.Mvc.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Helpers.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Mvc.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Optimization.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Razor.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.Razor.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\WebGrease.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\EntityFramework.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\EntityFramework.SqlServer.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\JetBrains.Annotations.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\PagedList.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\PagedList.Mvc.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Helpers.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Mvc.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Optimization.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Razor.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.Razor.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\Newtonsoft.Json.xml
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\bin\Antlr3.Runtime.pdb
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\obj\Debug\BaseballStas.csproj.AssemblyReference.cache
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\obj\Debug\BaseballStas.csproj.CoreCompileInputs.cache
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\obj\Debug\BaseballStas.csproj.CopyComplete
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\obj\Debug\BaseballStas.dll
+C:\Users\U11186438\Documents\Teaching @ UP\2022\INF272\Reporting class exercise\BaseballStas - Student Copy\BaseballStas\obj\Debug\BaseballStas.pdb
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\BaseballStas.dll.config
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\BaseballStas.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\BaseballStas.pdb
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csc.exe
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csc.exe.config
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csc.rsp
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csi.exe
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csi.exe.config
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\csi.rsp
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Buffers.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Collections.Immutable.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Memory.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Numerics.Vectors.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\vbc.exe
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\vbc.exe.config
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\vbc.rsp
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\VBCSCompiler.exe
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\roslyn\VBCSCompiler.exe.config
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\Antlr3.Runtime.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\EntityFramework.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\EntityFramework.SqlServer.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\JetBrains.Annotations.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\Microsoft.Web.Infrastructure.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\Newtonsoft.Json.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\PagedList.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\PagedList.Mvc.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Helpers.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Mvc.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Optimization.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Razor.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.Deployment.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.Razor.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\WebGrease.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\EntityFramework.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\EntityFramework.SqlServer.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\JetBrains.Annotations.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\PagedList.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\PagedList.Mvc.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Helpers.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Mvc.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Optimization.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.Razor.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.Deployment.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\System.Web.WebPages.Razor.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\Newtonsoft.Json.xml
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\bin\Antlr3.Runtime.pdb
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\obj\Debug\BaseballStas.csproj.AssemblyReference.cache
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\obj\Debug\BaseballStas.csproj.CoreCompileInputs.cache
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\obj\Debug\BaseballStas.dll
+C:\Web projects\INF 272\Post Prac\21\21.1\BaseballStas - Student Copy\BaseballStas\obj\Debug\BaseballStas.pdb

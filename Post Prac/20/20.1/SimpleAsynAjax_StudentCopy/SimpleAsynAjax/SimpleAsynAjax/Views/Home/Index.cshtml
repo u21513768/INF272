@@ -1,0 +1,94 @@
+﻿<h3>AjaxAndjQuery</h3>
+
+<div class="col-md-12">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Please enter the details below.</h3>
+        </div>
+        <div class="panel-body">
+            <div class="form-group col-md-6">
+                <label>Simple Attribute Details:</label>
+                <input type="text" name="simplAttr" id="simplAttr" class="form-control" placeholder="Add some details to Simple Attribute" required="" />
+            </div>
+
+
+            <div class="form-group col-md-6">
+                <div style="float: right; display:inline-block;">
+                    <input class="btn btn-primary" name="submitButton" id="btnSave" value="Save" type="button">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <p id="info"></p><hr />
+    <table id="tblSimpleAttribute" class="table table-bordered table-striped table-responsive table-hover">
+        <thead>
+            <tr>
+                <th align="left" class="productth col-md-6">Table Identity</th>
+                <th align="left" class="productth col-md-6">Simple Attribute Details</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $(document).ready(() => {
+            LoadData();
+
+            $(function () {
+                $("#btnSave").click(function () {
+                    var tbl = {};
+                    tbl.SimpleAttribute = $("#simplAttr").val();
+                    alert(tbl.SimpleAttribute);
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("Create")',
+                        data: '{tbl: ' + JSON.stringify(tbl) + '}',
+                        dataType: "json",
+                        contentType: "application/json; charset=utf-8",
+                        success: function (data) {
+                            // Whatever function you would like to include.
+                            $("#info").text(function () {
+                                return data.Message;
+                            });
+                            console.log(data)
+                            LoadData();
+
+                        }
+                    });
+                    return false;
+                });
+            });
+
+            function LoadData() {
+                /*Combination of AJAX, JSON and jQuery.*/
+                /*Carefully consider the id's in the HTML above.*/
+                var tbl = {};
+                tbl.SimpleAttribute = $("#simplAttr").val();
+
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetExampleTable")',
+                    data: '{tbl: ' + JSON.stringify(tbl) + '}',
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        // Whatever function you would like to include.
+                        console.log(data);
+                        let exampleData = data;
+
+                        $("#tblSimpleAttribute tbody").empty();
+                        $(exampleData).each((i, e) => {
+                            $("#tblSimpleAttribute tbody").append(`<tr><td>${e.SimpleID}</td><td>${e.SimpleAttribute}</td></tr>`);
+                        });
+                    }
+                });
+                return false;
+            }
+        });
+    </script>
+}
+

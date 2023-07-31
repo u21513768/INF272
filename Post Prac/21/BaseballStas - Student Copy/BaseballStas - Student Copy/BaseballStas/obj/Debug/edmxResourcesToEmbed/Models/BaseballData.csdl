@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BaseballDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="halloffame">
+    <Key>
+      <PropertyRef Name="hofID" />
+      <PropertyRef Name="yearID" />
+    </Key>
+    <Property Name="hofID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="yearID" Type="Int32" Nullable="false" />
+    <Property Name="votedBy" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="ballots" Type="Int32" />
+    <Property Name="needed" Type="Int32" />
+    <Property Name="votes" Type="Int32" />
+    <Property Name="inducted" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="category" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="manager">
+    <Key>
+      <PropertyRef Name="yearID" />
+      <PropertyRef Name="teamID" />
+      <PropertyRef Name="inseason" />
+    </Key>
+    <Property Name="managerID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="yearID" Type="Int32" Nullable="false" />
+    <Property Name="teamID" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="lgID" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="inseason" Type="Int32" Nullable="false" />
+    <Property Name="G" Type="Int32" />
+    <Property Name="W" Type="Int32" />
+    <Property Name="L" Type="Int32" />
+    <Property Name="rank" Type="Int32" />
+    <Property Name="plyrMgr" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="player">
+    <Key>
+      <PropertyRef Name="lahmanID" />
+    </Key>
+    <Property Name="lahmanID" Type="Int32" Nullable="false" />
+    <Property Name="playerID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="managerID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="hofID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="birthYear" Type="Int32" />
+    <Property Name="birthMonth" Type="Int32" />
+    <Property Name="birthDay" Type="Int32" />
+    <Property Name="birthCountry" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="birthState" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="birthCity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="deathYear" Type="Int32" />
+    <Property Name="deathMonth" Type="Int32" />
+    <Property Name="deathDay" Type="Int32" />
+    <Property Name="deathCountry" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="deathState" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="deathCity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nameFirst" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nameLast" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nameNote" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="nameGiven" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="nameNick" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="weight" Type="Int32" />
+    <Property Name="height" Type="Int32" />
+    <Property Name="bats" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="throws" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="debut" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="finalGame" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="college" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="lahman40ID" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="lahman45ID" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="retroID" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="holtzID" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="bbrefID" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="BaseballDataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="halloffames" EntityType="Self.halloffame" />
+    <EntitySet Name="managers" EntityType="Self.manager" />
+    <EntitySet Name="players" EntityType="Self.player" />
+  </EntityContainer>
+</Schema>

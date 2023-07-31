@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProductOrderModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ProductOrderEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="ProductOrderModel.Customer" />
+    <EntitySet Name="Orders" EntityType="ProductOrderModel.Order" />
+    <EntitySet Name="OrderItems" EntityType="ProductOrderModel.OrderItem" />
+    <EntitySet Name="Products" EntityType="ProductOrderModel.Product" />
+    <EntitySet Name="Suppliers" EntityType="ProductOrderModel.Supplier" />
+    <EntitySet Name="sysdiagrams" EntityType="ProductOrderModel.sysdiagram" />
+    <AssociationSet Name="FK_ORDER_REFERENCE_CUSTOMER" Association="ProductOrderModel.FK_ORDER_REFERENCE_CUSTOMER">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Order" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERITE_REFERENCE_ORDER" Association="ProductOrderModel.FK_ORDERITE_REFERENCE_ORDER">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="OrderItem" EntitySet="OrderItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERITE_REFERENCE_PRODUCT" Association="ProductOrderModel.FK_ORDERITE_REFERENCE_PRODUCT">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="OrderItem" EntitySet="OrderItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCT_REFERENCE_SUPPLIER" Association="ProductOrderModel.FK_PRODUCT_REFERENCE_SUPPLIER">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orders" Relationship="ProductOrderModel.FK_ORDER_REFERENCE_CUSTOMER" FromRole="Customer" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="OrderNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerId" Type="Int32" Nullable="false" />
+    <Property Name="TotalAmount" Type="Decimal" Precision="12" Scale="2" />
+    <NavigationProperty Name="Customer" Relationship="ProductOrderModel.FK_ORDER_REFERENCE_CUSTOMER" FromRole="Order" ToRole="Customer" />
+    <NavigationProperty Name="OrderItems" Relationship="ProductOrderModel.FK_ORDERITE_REFERENCE_ORDER" FromRole="Order" ToRole="OrderItem" />
+  </EntityType>
+  <EntityType Name="OrderItem">
+    <Key>
+      <PropertyRef Name="OrderItemId" />
+    </Key>
+    <Property Name="OrderItemId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderId" Type="Int32" Nullable="false" />
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="ProductOrderModel.FK_ORDERITE_REFERENCE_ORDER" FromRole="OrderItem" ToRole="Order" />
+    <NavigationProperty Name="Product" Relationship="ProductOrderModel.FK_ORDERITE_REFERENCE_PRODUCT" FromRole="OrderItem" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SupplierId" Type="Int32" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="12" Scale="2" />
+    <Property Name="Package" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="IsDiscontinued" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="OrderItems" Relationship="ProductOrderModel.FK_ORDERITE_REFERENCE_PRODUCT" FromRole="Product" ToRole="OrderItem" />
+    <NavigationProperty Name="Supplier" Relationship="ProductOrderModel.FK_PRODUCT_REFERENCE_SUPPLIER" FromRole="Product" ToRole="Supplier" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="SupplierId" />
+    </Key>
+    <Property Name="SupplierId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="ContactName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ContactTitle" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="Country" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Fax" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products" Relationship="ProductOrderModel.FK_PRODUCT_REFERENCE_SUPPLIER" FromRole="Supplier" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_ORDER_REFERENCE_CUSTOMER">
+    <End Type="ProductOrderModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="ProductOrderModel.Order" Role="Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERITE_REFERENCE_ORDER">
+    <End Type="ProductOrderModel.Order" Role="Order" Multiplicity="1" />
+    <End Type="ProductOrderModel.OrderItem" Role="OrderItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="OrderItem">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERITE_REFERENCE_PRODUCT">
+    <End Type="ProductOrderModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="ProductOrderModel.OrderItem" Role="OrderItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="OrderItem">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCT_REFERENCE_SUPPLIER">
+    <End Type="ProductOrderModel.Supplier" Role="Supplier" Multiplicity="1" />
+    <End Type="ProductOrderModel.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="SupplierId" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="SupplierId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="83dff9a148444fdaab46a79035e655d2" Name="Diagram1">
+        <EntityTypeShape EntityType="ProductOrderModel.Customer" Width="1.5" PointX="0.75" PointY="5.125" />
+        <EntityTypeShape EntityType="ProductOrderModel.Order" Width="1.5" PointX="3" PointY="5.125" />
+        <EntityTypeShape EntityType="ProductOrderModel.OrderItem" Width="1.5" PointX="5.25" PointY="1.25" />
+        <EntityTypeShape EntityType="ProductOrderModel.Product" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="ProductOrderModel.Supplier" Width="1.5" PointX="0.75" PointY="1" />
+        <EntityTypeShape EntityType="ProductOrderModel.sysdiagram" Width="1.5" PointX="5.75" PointY="4.75" />
+        <AssociationConnector Association="ProductOrderModel.FK_ORDER_REFERENCE_CUSTOMER" />
+        <AssociationConnector Association="ProductOrderModel.FK_ORDERITE_REFERENCE_ORDER" />
+        <AssociationConnector Association="ProductOrderModel.FK_ORDERITE_REFERENCE_PRODUCT" />
+        <AssociationConnector Association="ProductOrderModel.FK_PRODUCT_REFERENCE_SUPPLIER" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

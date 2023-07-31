@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BaseballDataModelStoreContainer" CdmEntityContainer="BaseballDataEntities">
+    <EntitySetMapping Name="halloffames">
+      <EntityTypeMapping TypeName="BaseballDataModel.halloffame">
+        <MappingFragment StoreEntitySet="halloffame">
+          <ScalarProperty Name="hofID" ColumnName="hofID" />
+          <ScalarProperty Name="yearID" ColumnName="yearID" />
+          <ScalarProperty Name="votedBy" ColumnName="votedBy" />
+          <ScalarProperty Name="ballots" ColumnName="ballots" />
+          <ScalarProperty Name="needed" ColumnName="needed" />
+          <ScalarProperty Name="votes" ColumnName="votes" />
+          <ScalarProperty Name="inducted" ColumnName="inducted" />
+          <ScalarProperty Name="category" ColumnName="category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="managers">
+      <EntityTypeMapping TypeName="BaseballDataModel.manager">
+        <MappingFragment StoreEntitySet="managers">
+          <ScalarProperty Name="managerID" ColumnName="managerID" />
+          <ScalarProperty Name="yearID" ColumnName="yearID" />
+          <ScalarProperty Name="teamID" ColumnName="teamID" />
+          <ScalarProperty Name="lgID" ColumnName="lgID" />
+          <ScalarProperty Name="inseason" ColumnName="inseason" />
+          <ScalarProperty Name="G" ColumnName="G" />
+          <ScalarProperty Name="W" ColumnName="W" />
+          <ScalarProperty Name="L" ColumnName="L" />
+          <ScalarProperty Name="rank" ColumnName="rank" />
+          <ScalarProperty Name="plyrMgr" ColumnName="plyrMgr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="players">
+      <EntityTypeMapping TypeName="BaseballDataModel.player">
+        <MappingFragment StoreEntitySet="players">
+          <ScalarProperty Name="lahmanID" ColumnName="lahmanID" />
+          <ScalarProperty Name="playerID" ColumnName="playerID" />
+          <ScalarProperty Name="managerID" ColumnName="managerID" />
+          <ScalarProperty Name="hofID" ColumnName="hofID" />
+          <ScalarProperty Name="birthYear" ColumnName="birthYear" />
+          <ScalarProperty Name="birthMonth" ColumnName="birthMonth" />
+          <ScalarProperty Name="birthDay" ColumnName="birthDay" />
+          <ScalarProperty Name="birthCountry" ColumnName="birthCountry" />
+          <ScalarProperty Name="birthState" ColumnName="birthState" />
+          <ScalarProperty Name="birthCity" ColumnName="birthCity" />
+          <ScalarProperty Name="deathYear" ColumnName="deathYear" />
+          <ScalarProperty Name="deathMonth" ColumnName="deathMonth" />
+          <ScalarProperty Name="deathDay" ColumnName="deathDay" />
+          <ScalarProperty Name="deathCountry" ColumnName="deathCountry" />
+          <ScalarProperty Name="deathState" ColumnName="deathState" />
+          <ScalarProperty Name="deathCity" ColumnName="deathCity" />
+          <ScalarProperty Name="nameFirst" ColumnName="nameFirst" />
+          <ScalarProperty Name="nameLast" ColumnName="nameLast" />
+          <ScalarProperty Name="nameNote" ColumnName="nameNote" />
+          <ScalarProperty Name="nameGiven" ColumnName="nameGiven" />
+          <ScalarProperty Name="nameNick" ColumnName="nameNick" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="height" ColumnName="height" />
+          <ScalarProperty Name="bats" ColumnName="bats" />
+          <ScalarProperty Name="throws" ColumnName="throws" />
+          <ScalarProperty Name="debut" ColumnName="debut" />
+          <ScalarProperty Name="finalGame" ColumnName="finalGame" />
+          <ScalarProperty Name="college" ColumnName="college" />
+          <ScalarProperty Name="lahman40ID" ColumnName="lahman40ID" />
+          <ScalarProperty Name="lahman45ID" ColumnName="lahman45ID" />
+          <ScalarProperty Name="retroID" ColumnName="retroID" />
+          <ScalarProperty Name="holtzID" ColumnName="holtzID" />
+          <ScalarProperty Name="bbrefID" ColumnName="bbrefID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

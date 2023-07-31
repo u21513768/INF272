@@ -1,0 +1,137 @@
+﻿@model PagedList.PagedList<BaseballStas.Models.vm.HallOfFamePlayerVM>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<div class="row">
+
+    <h1> About </h1>
+
+
+    <p>
+        The National Baseball Hall of Fame and Museum is a history museum and hall of fame in Cooperstown, New York, operated by private interests. It serves as the central point of the history of baseball in the United States and displays baseball-related artifacts and exhibits, honoring those who have excelled in playing, managing, and serving the sport. The Hall's motto is "Preserving History, Honoring Excellence, Connecting Generations". Cooperstown is often used as shorthand for the National Baseball Hall of Fame and Museum, similar to "Canton" for the Pro Football Hall of Fame in Canton, Ohio.
+    </p>
+
+    <h1> Inductees (Page @Model.PageNumber)</h1>
+
+    <div class="col-md">
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var player in Model)
+                {
+                    <tr>
+                        <td>@player.FirstName</td>
+                        <td>@player.LastName</td>
+                        <td>@player.Year</td>
+                        <td>@player.CountryOfBirth</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <hr />
+        <canvas id="myChart" style="width:100%;"></canvas>
+
+        <ul class="pagination pagination-lg">
+            @{
+                if (!Model.IsFirstPage)
+                {
+                    <li class="page-item"><a class="page-link" href="@Url.Action("Index", "Home", new { pageIndex = Model.PageNumber -1 })">Prev</a></li>
+                }
+                if (!Model.IsLastPage)
+                {
+                    <li class="page-item"><a class="page-link" href="@Url.Action("Index", "Home", new { pageIndex = Model.PageNumber + 1 })">Next</a></li>
+                }
+            }
+
+            <li class="page-item"><a class="page-link" id="export">Export</a></li>
+        </ul>
+        <script>
+            var data = @Html.Raw(Json.Encode(Model));
+            var num = [];
+            var names = [];
+            console.log(data);
+
+            for (var i = 0; i < data.length; i++) {
+                num[i] = data[i].NumberOfBallots;
+                names[i] = data[i].FirstName + " " + data[i].LastName + " (" + data[i].Year + ")"
+            }
+
+            const ctx = document.getElementById('myChart').getContext('2d');
+            const config = {
+                type: 'bar',
+                data: {
+                    labels: names,
+                    datasets: [{
+                        //label: '# of Votes',
+                        data: num,
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)',
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)',
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: false,
+                    plugins: {
+                        title: {
+                        display: true,
+                            text: 'Bar Chart'
+                        }
+                    }
+                },
+            };
+            config.options.animation = false;
+            config.options.plugins.legend = false;
+            const myChart = new Chart(ctx, config);
+           
+            console.log(config);
+
+            var exp = document.getElementById('export');
+            exp.onclick = convertToPDF;
+            function convertToPDF() {
+                var url_base64 = document.getElementById('myChart').toDataURL('image/png');
+                console.log("url", url_base64);
+                var dd = {
+                    pageSize: 'LETTER', //pageSize: { width: 612.00, height: 792.00},
+                   
+                    content: [
+                        {
+                            image: url_base64,
+                            width: 550,
+                        },
+                    ]
+                };
+                console.log("dd", dd);
+                pdfMake.createPdf(dd).open()
+            }
+            
+        </script>
+    </div>
+
+</div>

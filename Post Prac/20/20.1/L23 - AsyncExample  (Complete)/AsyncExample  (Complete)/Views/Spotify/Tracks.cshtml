@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "Tracks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tracks</h2>
+<div class="form-group form-inline">
+    <button class="btn btn-primary" id="add-btn">Add to Playlist: </button>
+    <select class="form-control" id="list-select">
+        
+    </select>
+</div>
+<div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+</div>
+
+@section scripts {
+    <script>
+        $(document).ready(() => {
+            GetTracks();
+            GetPlaylists();
+
+            function GetTracks() {
+                $.get({
+                    url: "@Url.Action("GetTracks", "Spotify")",
+                    success: (data) => {
+                        let trackData = JSON.parse(data);
+
+                        console.log(trackData);
+
+                        $("#table-body").empty();
+
+                        $(trackData).each((i, e) => {
+                            $("#table-body").append(`<tr data-id="${e.TrackId}"><td><input type="checkbox" class="checkbox-inline checkbox" /></td><td>${e.Name}</td></tr>`);
+                        });
+                    }
+                });
+            }
+
+            function GetPlaylists() {
+                $.get({
+                    url: "@Url.Action("GetPlaylists", "Spotify")",
+                    success: (data) => {
+                        let playlistData = JSON.parse(data);
+
+                        console.log(playlistData);
+
+                        $("#list-select").empty();
+
+                        $(playlistData).each((i, e) => {
+                            $("#list-select").append(`<option value="${e.ID}">${e.Name}</option>`);
+                        });
+                    }
+                });
+            }
+
+            $("#add-btn").on("click", () => {
+                let listId = parseInt($("#list-select").val());
+                let trackIds = [];
+                $("input:checked").each((i, e) => {
+                    console.log(e)
+                    let id = $(e).parents("tr").attr("data-id");
+                    console.log(id)
+                    id = parseInt(id);
+                    trackIds.push(id);
+                });
+
+                let obj = {};
+                obj.PlaylistId = listId;
+                obj.TrackIds = trackIds;
+
+                console.log(obj)
+
+                $.post({
+                    url: "@Url.Action("AddTracksToPlaylist", "Spotify")",
+                    data: {
+                        data: JSON.stringify(obj)
+                    },
+                    success: (data) => {
+                        let msg = JSON.parse(data);
+
+                        alert(msg.message);
+                    }
+                });
+            });
+
+        });
+    </script>    
+}

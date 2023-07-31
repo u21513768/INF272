@@ -1,0 +1,55 @@
+﻿@model PagedList.PagedList<BaseballStas.Models.vm.HallOfFamePlayerVM>
+@using Newtonsoft.Json;
+
+<div class="row">
+
+    <h1> About </h1>
+
+
+    <p>
+        The National Baseball Hall of Fame and Museum is a history museum and hall of fame in Cooperstown, New York, operated by private interests. It serves as the central point of the history of baseball in the United States and displays baseball-related artifacts and exhibits, honoring those who have excelled in playing, managing, and serving the sport. The Hall's motto is "Preserving History, Honoring Excellence, Connecting Generations". Cooperstown is often used as shorthand for the National Baseball Hall of Fame and Museum, similar to "Canton" for the Pro Football Hall of Fame in Canton, Ohio.
+    </p>
+
+    <h1> Inductees (Page @Model.PageNumber)</h1>
+
+    <div class="col-md-4">
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var player in Model)
+                {
+                    <tr>
+                        <td>@player.FirstName</td>
+                        <td>@player.LastName</td>
+                        <td>@player.Year</td>
+                        <td>@player.CountryOfBirth</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <ul class="pagination pagination-lg">
+            @{
+                if (!Model.IsFirstPage)
+                {
+                    <li class="page-item"><a class="page-link" href="@Url.Action("Index", "Home", new { pageIndex = Model.PageNumber -1 })">Prev</a></li>
+                }
+                if (!Model.IsLastPage)
+                {
+                    <li class="page-item"><a class="page-link" href="@Url.Action("Index", "Home", new { pageIndex = Model.PageNumber + 1 })">Next</a></li>
+                }
+            }
+            <li class="page-item"><a class="page-link" id="export">Export</a></li>
+        </ul>
+
+    </div>
+
+
+</div>
