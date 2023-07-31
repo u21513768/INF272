@@ -1,0 +1,86 @@
+﻿@model INF272HW5.Models.BorrowsVM
+@*Quintin d' Hotman de Villiers u21513768*@
+@{
+    ViewBag.Title = "BorrowDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    @{
+        bool flag = true;
+        foreach (var Borrow in Model.BorrowsDetails)
+        {
+            var date = new DateTime(1900, 1, 1);
+            if (Borrow.BroughtDate == date)
+            {
+                flag = false;
+            }
+
+        }
+    }
+
+    <h1>
+        @Model.BorrowsDetails[0].BookName -
+        @{ if (flag == true)
+            {
+                <span style="color: green">Book Available</span>
+            }
+            else
+            {
+                <span style="color: red">Book Out</span>
+            }
+        }
+    </h1>
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <span><h4 style="font-weight: bold">No. of Borrows - @Model.count</h4></span>
+            </div>
+            <div class="col-md-2">
+                @Html.ActionLink("View Students", "ViewStudents", "Home", new { bookID = @Model.BorrowsDetails[0].BookID }, new { @class = "btn btn-primary" })
+            </div>
+        </div>
+    </div>
+    <hr />
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Taken Date</th>
+                <th scope="col">Brought Date</th>
+                <th scope="col">Brought By</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Borrow in Model.BorrowsDetails)
+            {
+                <tr>
+                    <td>@Borrow.BorrowID</td>
+                    <td>@Borrow.TakenDate</td>
+
+                    @{
+                        var date = new DateTime(1900, 1, 1);
+                        if (Borrow.BroughtDate == date)
+                        {
+                            <td>Book Out</td>
+                        }
+                        else
+                        {
+                            <td>@Borrow.BroughtDate</td>
+                        }
+
+                    }
+
+                    <td>@Borrow.Name </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

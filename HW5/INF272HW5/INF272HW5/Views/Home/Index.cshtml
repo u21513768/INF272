@@ -1,0 +1,95 @@
+﻿@model INF272HW5.Models.BookVM
+@*Quintin d' Hotman de Villiers u21513768*@
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+}
+
+@using (Html.BeginForm())
+{
+    <div>
+        <style>
+            #search > tbody > tr > td, #search > tbody > tr > th, #search > tfoot > tr > td, #search > tfoot > tr > th, #search > thead > tr > td, #search > thead > tr > th {
+                border: 0
+            }
+        </style>
+        <h1>Books</h1>
+        <hr />
+
+        <div @*class="table-responsive"*@>
+            <table class="table" id="search">
+                <tbody>
+                    <tr>
+                        <th scope="col" class="col-md-3">
+                            @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control float-right", placeholder = "Search Book Name", @style = "width: 100%, margin: 0px, padding: 0px, float: right" } })
+                            @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                        </th>
+                        <th scope="col" @*class="col-md-2"*@>
+                            @Html.DropDownList("Type", new SelectList((System.Collections.IEnumerable)Model.Types, "Type"), "Select Type", new
+                            {
+                                @class = "form-control"@*, @style = "width: 100%"*@})
+                        </th>
+                        <th scope="col" @*class="col-md-2"*@>
+                            @Html.DropDownList("Author", new SelectList((System.Collections.IEnumerable)Model.Authors, "Author"), "Select Author", new
+                            {
+                                @class = "form-control"@*, @style = "width: 100%"*@})
+                        </th>
+                        <th scope="col" class="col-md-2">
+                            <input type="submit" value="Search" class="btn btn-success" style="width:100%;" />
+                        </th>
+                        <th scope="col" class="col-md-2">
+                            @Html.ActionLink("Clear", "Index", "Home", new { @class = "btn btn-danger", @style = "width: 100%;" })
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <hr />
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Page Count</th>
+                    <th scope="col">Points</th>
+                    <th scope="col">Status</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var Book in Model.BooksDetails)
+                {
+                    <tr>
+                        <td>@Book.BookID</td>
+                        <td>@Book.Name</td>
+                        <td>@Book.Author</td>
+                        <td>@Book.Type</td>
+                        <td>@Book.PageCount</td>
+                        <td>@Book.Points</td>
+                        @*<td>@Book.Status</td>*@
+                        @if (Book.Status == false)
+                        {
+                            <td style="color: red">Out of stock</td>
+                        }
+                        else
+                        {
+                            <td style="color: green">Available</td>
+                        }
+
+                        <td>@Html.ActionLink("View", "BorrowDetails", "Home", new { bookID = @Book.BookID }, new { @class = "btn btn-primary" })</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

@@ -1,0 +1,112 @@
+﻿@model INF272HW5.Models.StudentBookVM
+@*Quintin d' Hotman de Villiers u21513768*@
+@{
+    ViewBag.Title = "VIewStudents";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+
+{
+    <style>
+        #search > tbody > tr > td, #search > tbody > tr > th, #search > tfoot > tr > td, #search > tfoot > tr > th, #search > thead > tr > td, #search > thead > tr > th {
+            border: 0
+        }
+    </style>
+    <div>
+        <h4>Students</h4>
+        <hr />
+        @Html.HiddenFor(model => model.BookID, new { value = Model.BookID })
+
+        <div>
+            <table class="table" id="search">
+                <tbody>
+                    <tr>
+                        <th scope="col" class="col-md-3">
+                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Search Student Name" } })
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </th>
+                        <th scope="col" class="col-md-3">
+                            @Html.DropDownList("Class", new SelectList((System.Collections.IEnumerable)Model.Classes, "Class"), "Select Class", new { @class = "form-control" })
+                        </th>
+                        <th scope="col" class="col-md-3">
+                            <input type="submit" value="Search" class="btn btn-success" style="width: 100%" />
+                        </th>
+                        <th scope="col" class="col-md-3">
+                            @Html.ActionLink("Clear", "ViewStudents", "Home", new { bookID = Model.BookID }, new { @class = "btn btn-danger", @style = "width: 100%" })
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr />
+        <table class="table">
+            <thead class="thead-dark">
+                @{
+                    var date = new DateTime(1900, 1, 1);
+                    var query = (from borrows in Model.BorrowDetails where borrows.BroughtDate == date select borrows);
+                    var flag = false;
+
+                    if (query.Count() != 0)
+                    {
+                        flag = true;
+                    }
+                }
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Surname</th>
+                    <th scope="col">Class</th>
+                    <th scope="col">Points</th>
+                    @{
+                        if (flag == true)
+                        {
+                            <th scope="col">Return Book</th>
+                        }
+                        else
+                        {
+                            <th scope="col">Borrow Book</th>
+                        }
+
+                    }
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var Student in Model.Students)
+                {
+                    <tr>
+                        <td>@Student.StudentID</td>
+                        <td>@Student.Name</td>
+                        <td>@Student.Surname</td>
+                        <td>@Student.Class</td>
+                        <td>@Student.Point</td>
+                        @{
+                            if (flag == true)
+                            {
+                                var query2 = (from borrows in Model.BorrowDetails where borrows.BroughtDate == date && borrows.StudentID == Student.StudentID select borrows);
+
+                                if (query2.Count() != 0)
+                                {
+                                    //return book
+                                    <td>@Html.ActionLink("Return Book", "ReturnBook", "Home", new { bookID = Student.BookID }, new { @class = "btn btn-primary" })</td>
+                                }
+                            }
+                            else
+                            {
+                                //<input type="button" value="Create" onclick="location.href='@Url.Action("BorrowBook", "Home", Student.BookID)'" />
+                                //borrow book
+                                <td>@Html.ActionLink("Borrow Book", "BorrowBook", "Home", new { bookID = Student.BookID, studentID = Student.StudentID }, new { @class = "btn btn-primary" })</td>
+                            }
+                        }
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}
