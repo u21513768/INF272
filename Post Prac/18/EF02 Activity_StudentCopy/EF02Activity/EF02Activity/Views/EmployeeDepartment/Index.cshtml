@@ -1,0 +1,108 @@
+﻿@model PagedList.IPagedList<EF02Activity.Models.TableJoin>
+@using PagedList.Mvc;
+
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    @using (Html.BeginForm("Index", "EmployeeDepartment", FormMethod.Get))
+        {
+    <table class="table-condensed" width="100%" align="center">
+        <thead>
+            <tr>
+                <td>
+                    <p>
+                        @Html.PagedListPager(Model, page => Url.Action("Index", new { page, currentFilterTextbox = ViewBag.CurrentFilterTextbox }))
+                    </p>
+                </td>
+                <td>
+                    <p style="float: right">
+                        <b> Search Option: </b>
+                        @Html.TextBox("TextboxSearchString", ViewBag.CurrentFilterTextbox as string)
+                        <input type="submit" value="Search" />
+                    </p>
+                </td>
+            </tr>
+        </thead>
+    </table>
+        }
+    <table class="table-condensed" width="100%" align="center">
+        <thead>
+            <tr>
+                <th width="20%">
+                    <p align="left">
+                        @Html.ActionLink("Employee Name", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilterTextbox = ViewBag.CurrentFilterTextbox })
+                    </p>
+                </th>
+                <th width="20%">
+                    <p align="left">
+                        @Html.ActionLink("Employee Surname", "Index", new { sortOrder = ViewBag.SurnameSortParm, currentFilterTextbox = ViewBag.CurrentFilterTextbox })
+                    </p>
+                </th>
+                <th width="25%">
+                    <p align="left">
+                        @Html.ActionLink("Employee E-Mail", "Index", new { sortOrder = ViewBag.EMailSortParm, currentFilterTextbox = ViewBag.CurrentFilterTextbox })
+                    </p>
+                </th>
+                <th width="15%">
+                    <p align="center">
+                        @Html.ActionLink("Department", "Index", new { sortOrder = ViewBag.DepartmentSortParm, currentFilterTextbox = ViewBag.CurrentFilterTextbox })
+                    </p>
+                </th>
+                <th width="20%">
+                    <p align="right">
+                        Complete Record
+                    </p>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+                {
+            <tr>
+                <td>
+                    <p align="left" style="font-size:11.5px;">
+                        @Html.DisplayFor(modelItem => item.EmployeeDetails.first_name)
+                    </p>
+                </td>
+                <td>
+                    <p align="left" style="font-size:11.5px;">
+                        @Html.DisplayFor(modelItem => item.EmployeeDetails.last_name)
+                    </p>
+                </td>
+                <td>
+                    <p align="left" style="font-size:11.5px;">
+                        @Html.DisplayFor(modelItem => item.EmployeeDetails.email)
+                    </p>
+                </td>
+                <td>
+                    <p align="center" style="font-size:11.5px;">
+                        @Html.DisplayFor(modelItem => item.DepartmentDetails.department_name)
+                    </p>
+                </td>
+                <td>
+                    <p align="right">
+                        @Html.ActionLink("Complete Record", "Details", new { id = item.EmployeeDetails.employee_id }, new { @class = "btn btn-primary btn-sm" })
+                    </p>
+                </td>
+            </tr>
+                }
+        </tbody>
+    </table>
+    <br />
+    <table width="100%" align="center">
+        <tr>
+            <td>
+                <p style="float: right">
+                    <strong>
+                        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+                    </strong>
+                    &nbsp
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,56 @@
+﻿@model EF02Activity.Models.employee
+
+<br />
+<div>
+    <table class="table-bordered" width="60%">
+        <thead>
+            <tr style="background-color:darkgrey">
+                <td width="50%"><strong>&nbsp DETAILS</strong></td>
+                <td width="50%"><strong>&nbsp DESCRIPTION</strong></td>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.employee_id)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.employee_id)</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.first_name)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.first_name)</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.last_name)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.last_name)</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.email)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.email)</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.phone_number)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.phone_number)</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.hire_date)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.hire_date)</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.salary)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.salary)</td>
+        </tr>
+    </table>
+    <br />
+    <table width="60%">
+        <tr>
+            <td align="right">
+                <input type="button" class="btn btn-primary btn-sm" value="Back to List" onclick="location.href='@Url.Action("Index", "Employee")'" />
+            </td>
+        </tr>
+    </table>
+</div>

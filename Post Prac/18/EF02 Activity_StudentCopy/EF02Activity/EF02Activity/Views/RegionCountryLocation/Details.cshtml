@@ -1,0 +1,46 @@
+﻿@model EF02Activity.Models.location
+
+<br />
+<div>
+    <table class="table-bordered" width="60%">
+        <thead>
+            <tr style="background-color:darkgrey">
+                <td width="50%"><strong>&nbsp DETAILS</strong></td>
+                <td width="50%"><strong>&nbsp DESCRIPTION</strong></td>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.street_address)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.street_address)</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.country.country_name)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.country.country_name)</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.country.region.region_name)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.country.region.region_name)</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.city)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.city)</td>
+        </tr>
+
+        <tr>
+            <td>&nbsp @Html.DisplayNameFor(model => model.postal_code)</td>
+            <td>&nbsp @Html.DisplayFor(model => model.postal_code)</td>
+        </tr>
+    </table>
+    <br />
+    <table width="60%">
+        <tr>
+            <td align="right">
+                <input type="button" class="btn btn-primary btn-sm" value="Back to List" onclick="location.href='@Url.Action("Index", "RegionCountryLocation")'" />
+            </td>
+        </tr>
+    </table>
+</div>

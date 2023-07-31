@@ -1,0 +1,159 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <h2><strong>INF272 - Entity Framework Activity 02.</strong></h2>
+</div>
+<div class="container">
+    <hr />
+</div>
+<div class="container" style="height: 400px; overflow: auto;">
+
+    <table width="100%">
+        <tr bgcolor="#454545">
+            <td>
+                <h4 style="color:white"><strong>&nbsp;&nbsp;Introduction.</strong></h4>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <p align="justify">
+        <b>The activity instructions in under “Getting Started” under the “Activity Files”. Scroll down.</b> As part of this project, it is a good idea to refer to some of the documentation that is provided.
+    </p>
+    <p align="justify">
+        Additionally, the assignment is linked in the document as a PDF and a complete example of all the different versions of LINQ statements,
+        as well as related lambda statements is provided. It shows a number of variations on similar statements as well as how the statements work.
+        The sample project linked in this page has the library database as an SQL file loaded into one of the sub-folders of the project.
+    </p>
+    <p align="justify">
+        You will however find the SQL file used in this project linked below. Make sure to change and update your Connection String to accommodate the database.
+        <b><u>The connection string can be found in the web.config file.</u></b>
+    </p>
+    <br />
+    <h4>Resources and Help.</h4>
+    <p>
+        <div class="btn-group">
+            <a class="btn btn-default btn-default" href="https://www.entityframeworktutorial.net/" target="_blank">Learn Entity Framework &raquo;</a>&nbsp
+            <a class="btn btn-default btn-default" href="https://www.tutorialspoint.com/entity_framework/index.htm" target="_blank">Entity Framework Tutorial &raquo;</a>&nbsp
+            <a class="btn btn-default btn-default" href="https://www.tutorialsteacher.com/linq" target="_blank">LINQ Tutorial &raquo;</a>
+            <a class="btn btn-default btn-default" href="https://www.nuget.org/packages/EntityFramework" target="_blank">Entity Framework &raquo;</a>
+            <a class="btn btn-default btn-default" href="https://www.nuget.org/packages/PagedList.Mvc" target="_blank">PagedList.Mvc &raquo;</a>
+        </div>
+    </p>
+    <br />
+    <p align="justify">
+        Language-Integrated Query (LINQ) is the name for a set of technologies based on the integration of query capabilities directly into the C# language.
+        Traditionally, queries against data are expressed as simple strings without type checking at compile time or IntelliSense support.
+    </p>
+    <br />
+    <table width="100%">
+        <tr bgcolor="#454545">
+            <td>
+                <h4 style="color:white"><strong>&nbsp;&nbsp;Getting started.</strong></h4>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <p align="justify">
+        This program uses Entity Framework (Database-First). The database model details have already been loaded. You will need to load the provided database (HumanResources.sql)
+        to be able to run the project. Make sure to update the connection string as stipulated later on in this page. Carefully take note of the relationships between the entities
+        and how LINQ statements are formulated. A LINQ statement is directly influenced by the Parent-Child [PK - FK] relationship.
+    </p>
+    <br />
+    <h4>Activity Files.</h4>
+    <p>
+        <div class="btn-group">
+            <a class="btn btn-default btn-default" href="@Url.Content("~/Resources/EF02 Activity.pdf" )" target="_blank"><b>ACTIVITY INSTRUCTIONS</b> &raquo;</a>
+            <a class="btn btn-default btn-default" href="@Url.Content("~/Resources/HumanResources.zip")">Zipped SQL File &raquo;</a>
+            <a class="btn btn-default btn-default" href="@Url.Content("~/Resources/DatabaseDiagram_HumanResources.pdf")" target="_blank">HumanResources Database Diagram &raquo;</a>&nbsp
+            <a class="btn btn-default btn-default" href="@Url.Content("~/Resources/EFLinqLambda.zip")">Detailed LINQ / Lambda Sample &raquo;</a>&nbsp
+        </div>
+    </p>
+    <br />
+    <p align="justify">
+        To ensure general functionality, please make sure to follow the indicated
+        steps.
+    </p>
+    <ol align="justify">
+        <li>
+            Make sure that SQL Server is open, up and running.
+            You might need to start the SQL Server Services to open SQL Server
+            Management Studio. Search for <b>Services</b>. Search for SQL Server and make sure it is running.
+            If it isn't running, right click on it and click on Start.
+        </li>
+        <li>
+            Open and execute HumanResources.sql. The file is stable and should not provide errors.
+            If there are errors, then troubleshoot it by referring to lines showing an error.
+            The probability of this is very low, however it can always be a possibility.
+        </li>
+        <li>
+            Open the web.config file and change the connection string.
+            You will see where to change the string stipulated later on in this
+            page.
+        </li>
+        <li>
+            After updating the connection string, and refresing the database connection you will have to clean
+            and rebuild the project. After this, look at the Server Explorer (left-hand
+            of the screen of Visual Studio, and refresh the server. This will enable the
+            connection between Visual Studio and SQL Server.
+        </li>
+        <li>
+            You could use the Server Explorer for this but.
+            <b>you will have to change the connection string in the <u>Web.Config</u> file as the Server Explorer connection is very slow.</b>
+            The project was developed with a server with an alternative name. You will have to make
+            sure that you reference the currect server being referenced. After you have done all of this, then your program is ready for
+            finalization. Follow the guidelines and stipulations in given instructions.
+        </li>
+    </ol>
+    <br />
+    <table width="100%">
+        <tr bgcolor="#454545">
+            <td>
+                <h4 style="color:white"><strong>&nbsp;&nbsp;Program smartly.</strong></h4>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <p align="justify">
+        Please carefully consider the sample LINQ and repeating code. The first three samples (under the EXAMPLES menu-item) show you how to use LINQ to
+        <b>(1)</b> use one table
+        <b>(2)</b> join and use 2 tables, and then finally
+        <b>(3)</b> join and use 3 tables. To complete this activity you will have to
+        <b>(1)</b> complete the ActivityController.cs,
+        <b>(2)</b> complete the related Index.cshtml file to display the results and then
+        <b>(3)</b> complete the related Details.cshtml file.
+        <b>
+            <u>
+                Sections make use of repetitive code sequences. Think before you code. Understand what is required.
+            </u>
+        </b>
+    </p>
+    <br />
+    <table width="100%">
+        <tr bgcolor="#454545">
+            <td>
+                <h4 style="color:white"><strong>&nbsp;&nbsp;Connection String.</strong></h4>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <h4></h4>
+    <p align="justify">
+        Make sure to look for the data source in the connection. It is close to the top of the Web.Config
+        file. You will have to update / change the server detail as indicated below:
+    </p>
+    <p align="justify">
+        <b>....."Data Source=<u>SAMURAI_JACK\SQLEXPRESS</u>; Initial Catalog=HumanResources;......</b>
+    </p>
+    <p align="justify">
+        <b>
+            Care has been taken to avoid unnecessary coding challenges.
+            However, you might find that the model details in the views could give
+            you null exceptions until all Controllers have been finalized.
+            When you complete this program appropriately these concerns should disappear.
+            Initial load will take a couple of second as the
+            database data is being loaded.
+        </b>
+    </p>
+</div>
