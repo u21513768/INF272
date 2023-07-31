@@ -1,0 +1,28 @@
+﻿@model List<Assignment>
+
+@{
+    ViewBag.Title = "VIewCourse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    @foreach (var Assignment in Model)
+    {
+        <div class="col-sm-4">
+            <div class="card">
+                <img class="card-img-top" src="/images/picture.jpg" alt="Course Image">
+                <div class="card-body">
+                    <h5 class="card-title">@Assignment.CourseName</h5>
+                    <p class="card-text">@Assignment.CourseDescription</p>
+                    <p class="card-text">Submitted by @Assignment.StudentName</p>
+                    <p class="card-text">Marked by @Assignment.StaffName</p>
+
+                </div>
+            </div>
+        </div>
+    }
+    </div>
+<div>
+    @*@Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
+    <a asp-action="Index">Back to List</a>
+</div>
