@@ -1,0 +1,108 @@
+﻿<html>
+
+<head>
+    <title>INF272 Section B Question 2</title>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <link href="scripts/site.css" rel="stylesheet">
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="content">
+            <div class="content-body">
+                <div class="main-text">INF272 Section B Question 2</div>
+                <input type="hidden" id="hfRowIndex" value="" />
+                <table class="specialTable">
+                    <tr>
+                        <td class="specialTable">
+                            <input type="text" name="Id" id="txtText" class="p" />
+                            <button type='button' id='btnUpdate' style="display: none;" class="button">Update</button>
+                            <button type='button' id='btnAdd' class="button">Add</button>
+
+                        </td>
+                    </tr>
+                </table>
+                <table id="tblTable" class="table">
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+
+    $(function () {
+
+        // ------------------------------------------------------
+        // Add values
+        var addElement = $("#btnAdd");
+        var updateElement = $("#btnUpdate");
+        $('#btnAdd').on('click', function () {
+            var id;
+            id = $("#txtText").val();
+            var edit = "<a class='edit' href='JavaScript:void(0);' ><button type='button' id='btnAdd' class='button'>Edit</button> </a>";
+            var del = "<a class='delete' href='JavaScript:void(0);'><button type='button' id='btnAdd' class='button'>Delete</button> </a>";
+            var table = "<tr><td class='tdTxt'>"
+                + id + "</td><td class='tdSpecial'>"
+                + edit + "</td><td class='tdSpecial'>"
+                + del + "</td></tr>";
+
+            $("#tblTable").append(table);
+            id = $("#txtText").val("");
+        });
+
+        // ------------------------------------------------------
+        // Edit  values -----------------------------------------
+        // Complete EDIT in space provided below.
+        // ------------------------------------------------------
+        var col1PlaceHolder;
+        
+        $("#tblTable").on("click", ".edit", function () {
+
+            var currentRow = $(this).closest("tr"); 
+         
+            var col1 = currentRow.find("td:eq(0)").text();
+            col1PlaceHolder = currentRow.find("td:eq(0)");
+            $("#txtText").val(col1);
+           
+            $("#btnAdd").replaceWith(updateElement);
+            $("#btnUpdate").attr("style", "display: inline;")
+        });
+
+        // ------------------------------------------------------
+        // Update values ----------------------------------------
+        // Complete UPDATE in space provided below.
+        // ------------------------------------------------------
+        
+        $('#btnUpdate').on('click', function () {
+
+            var newData;
+            newData = $("#txtText").val();
+            col1PlaceHolder.text(newData);
+
+            $("#btnUpdate").replaceWith(addElement);
+            
+        });
+
+        // ------------------------------------------------------
+        // Delete values
+        $("#tblTable").on("click", ".delete", function (e) {
+            $(this).closest('tr').remove();
+        });
+        $('#btnClear').on('click', function () {
+            Clear();
+        });
+
+        // ------------------------------------------------------
+        // Clear page on refresh
+        function Clear() {
+            $("#txtText").val("");
+            $("#hfRowIndex").val("");
+        }
+
+    });
+</script>
+
+</html>

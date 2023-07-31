@@ -1,0 +1,36 @@
+﻿@model List<INF272SemesterTest2SectionC.Models.ArtistAlbumVM>
+
+<div class="text-center"> 
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Album name</th>
+                <th>Action(s)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var artistAlbum in Model)
+            {
+            <tr>
+                <td style="text-align:left">@artistAlbum.Artist.Name</td>
+                @if (artistAlbum.Albums.Count > 0)
+                {
+                    <td style="text-align:left">@artistAlbum.getRandomAlbum().Title</td>
+                    <td style="text-align:left">
+                        @Html.ActionLink("Delete", "DeleteAlbum", "Home", new { AlbumID = artistAlbum.ChosenRandomAlbum.ID }, new { @class = "btn btn-danger" })
+                    </td>
+                }
+                else
+                {
+                    <td style="text-align:left"><b>No albums</b></td>
+                    <td>
+                        @Html.ActionLink("Delete", "DeleteArtist", "Home", new { ArtistID = artistAlbum.Artist.ID }, new { @class = "btn btn-danger" })
+                    </td>
+                }
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,60 @@
+﻿@model INF272Semtest2SectionAQ1StudentFiles.Models.Student
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Names)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Names)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfDistinctions)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumberOfDistinctions)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreditPerDist)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreditPerDist)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Credit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Credit)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.studentID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+

@@ -1,0 +1,117 @@
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\appsettings.json
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\WinterBoxes.exe
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\WinterBoxes.deps.json
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\WinterBoxes.runtimeconfig.json
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\WinterBoxes.runtimeconfig.dev.json
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\WinterBoxes.dll
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\ref\WinterBoxes.dll
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\WinterBoxes.pdb
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\WinterBoxes.Views.dll
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\bin\Debug\net5.0\WinterBoxes.Views.pdb
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.csproj.AssemblyReference.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.AssemblyInfoInputs.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.AssemblyInfo.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.csproj.CoreCompileInputs.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorAssemblyInfo.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorAssemblyInfo.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\staticwebassets\WinterBoxes.StaticWebAssets.Manifest.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\staticwebassets\WinterBoxes.StaticWebAssets.xml
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\scopedcss\bundle\WinterBoxes.styles.css
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.TagHelpers.input.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.TagHelpers.output.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorCoreGenerate.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorTargetAssemblyInfo.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorTargetAssemblyInfo.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.Views.pdb
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.dll
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\ref\WinterBoxes.dll
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.pdb
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.genruntimeconfig.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes\WinterBoxes\obj\Debug\net5.0\WinterBoxes.csproj.CopyComplete
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\appsettings.json
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.exe
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.deps.json
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.runtimeconfig.json
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.runtimeconfig.dev.json
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.dll
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\ref\WinterBoxes.dll
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.pdb
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.Views.dll
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.Views.pdb
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.csproj.AssemblyReference.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.AssemblyInfoInputs.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.AssemblyInfo.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.csproj.CoreCompileInputs.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorAssemblyInfo.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorAssemblyInfo.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\staticwebassets\WinterBoxes.StaticWebAssets.Manifest.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\staticwebassets\WinterBoxes.StaticWebAssets.xml
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\scopedcss\bundle\WinterBoxes.styles.css
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.TagHelpers.input.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.TagHelpers.output.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorCoreGenerate.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorTargetAssemblyInfo.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorTargetAssemblyInfo.cs
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.Views.pdb
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.dll
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\ref\WinterBoxes.dll
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.pdb
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.genruntimeconfig.cache
+C:\Users\U11186438\Desktop\INF272 - Class test 1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.csproj.CopyComplete
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\appsettings.Development.json
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\appsettings.json
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.exe
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.deps.json
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.runtimeconfig.json
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.runtimeconfig.dev.json
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.dll
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\ref\WinterBoxes.dll
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.pdb
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.Views.dll
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\bin\Debug\net5.0\WinterBoxes.Views.pdb
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.csproj.AssemblyReference.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.AssemblyInfoInputs.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.AssemblyInfo.cs
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.csproj.CoreCompileInputs.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.MvcApplicationPartsAssemblyInfo.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorAssemblyInfo.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorAssemblyInfo.cs
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\staticwebassets\WinterBoxes.StaticWebAssets.Manifest.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\staticwebassets\WinterBoxes.StaticWebAssets.xml
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\scopedcss\bundle\WinterBoxes.styles.css
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.TagHelpers.input.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.TagHelpers.output.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorCoreGenerate.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorTargetAssemblyInfo.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.RazorTargetAssemblyInfo.cs
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.Views.pdb
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.dll
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\ref\WinterBoxes.dll
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.pdb
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.genruntimeconfig.cache
+C:\Web projects\INF 272\SemTest1\2022 INF272 ST01 Section B1\WinterBoxes-StudentFiles\WinterBoxes\obj\Debug\net5.0\WinterBoxes.csproj.CopyComplete

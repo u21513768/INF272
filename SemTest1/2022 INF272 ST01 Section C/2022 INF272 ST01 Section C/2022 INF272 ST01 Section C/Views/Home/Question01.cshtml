@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Question 1";
+
+
+}
+
+<h2>Question 1</h2>
+<br />
+
+<form action="" method="post">
+    <table>
+
+        <tr>
+            <td><p><label for="text1">How many times should the loop run? &nbsp;</label></p></td>
+            <td><p><input type="number" min="0" name="timesToLoop" /></p></td>
+        </tr>
+
+        <tr>
+            <td><p><label for="text2">What is the text to loop?&nbsp;</label></p></td>
+            <td><p><input type="text" name="textToLoop" /></p></td>
+        </tr>
+
+        <tr>
+            <td><p>&nbsp;</p></td>
+            <td><p><input type="submit" value="RUN LOOP" /></p></td>
+            <td><p></p></td>
+        </tr>
+    </table>
+</form>
+<hr />
+
+@{
+
+    var textString = "";
+
+    var loopCount = 0;
+
+    if (IsPost)
+
+    {
+        // --------------------------------------------------
+        // Complete required section in space provided below.
+        // --------------------------------------------------
+        var numTimes = Request.Form["timesToLoop"].AsInt();
+
+        var inputText = Request.Form["textToLoop"];
+
+        for (var i = 0; i < numTimes; i++)
+        {
+            loopCount++;
+            <text>
+                <br>Line @loopCount.ToString()#: @inputText</text>
+
+        }
+
+    }
+    else
+    {
+        textString = "Wrong Info";
+    }
+
+}

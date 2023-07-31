@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Question 2";
+}
+
+<h2>Question 2</h2>
+
+<br />
+
+@{
+    var dataFile = Server.MapPath("~/App_Data/data.txt");
+
+    var dataToSave = "";
+
+    File.AppendAllText(@dataFile, dataToSave);
+
+    var runningTotal = 0;
+
+    if (IsPost)
+    {
+        // --------------------------------------------------
+        // Complete required section in space provided below.
+        // --------------------------------------------------
+        // Part 1 of functionality
+
+
+        var clickerNum = Request["num"] + Environment.NewLine;
+        File.AppendAllText(dataFile, clickerNum);
+
+
+
+
+
+
+
+    }
+}
+
+<form id="form" method="post">
+    <div>
+        <table>
+            <tr>
+                <td><input name="num" type="number" autofocus value="" /></td>
+                <td>&nbsp;<input type="submit" value="Clicker" /></td>
+            </tr>
+        </table>
+    </div>
+</form>
+
+@{
+    // --------------------------------------------------
+    // Complete required section in space provided below.
+    // --------------------------------------------------
+    // Part 2 of functionality
+
+    Array userData = null;
+
+
+    if (File.Exists(dataFile))
+    {
+        userData = File.ReadAllLines(dataFile);
+        if (userData == null)
+        {
+
+        }
+    }
+    else
+    {
+
+    }
+
+
+
+
+
+
+    // Part 3 of functionality
+    // You will require a foreach (string dataItem in dataFromFile) in a code block.
+
+
+
+
+    foreach (string dataLine in userData)
+    {
+        runningTotal += dataLine.AsInt();
+
+    }
+
+
+
+
+    }
+
+    <br />
+    <p>The clicker running total is: @runningTotal</p>

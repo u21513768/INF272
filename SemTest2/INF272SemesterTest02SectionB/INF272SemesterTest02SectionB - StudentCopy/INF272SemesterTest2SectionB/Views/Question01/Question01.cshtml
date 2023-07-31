@@ -1,0 +1,41 @@
+﻿@model List<INF272SemesterTest2SectionB.Models.Author>
+
+@{
+    ViewBag.Title = "Question01";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Question 01</h2>
+
+<table class="table table-condensed table-hover">
+    <thead style="position: sticky;top: 0">
+        <tr>
+            <th width="25%">Author ID</th>
+            <th width="25%">Author Last Name</th>
+            <th width="25%">Author First Name</th>
+            <th width="25%" style="text-align:center">Average Rankings</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+                {
+        <tr>
+            <td>@item.AuthorID</td>
+            <td>@item.AuthorLastName</td>
+            <td>@item.AuthorFirstName</td>
+
+            @* Complete this line of code BELOW this line (2 marks).*@
+            @* -----------------------------------------------------*@
+            @* -----------------------------------------------------*@
+            @{ 
+                var average = item.Ratings.Average(x => x.Rating);
+            }
+            <td style="text-align:center"> @Math.Round(average, 2) </td>
+
+            @* -----------------------------------------------------*@
+            @* -----------------------------------------------------*@
+            @* Complete this line of code  ABOVE this line.*@
+        </tr>
+                    }
+    </tbody>
+</table>

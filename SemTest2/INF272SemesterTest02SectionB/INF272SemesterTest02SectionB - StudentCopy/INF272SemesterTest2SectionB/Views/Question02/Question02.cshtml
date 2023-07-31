@@ -1,0 +1,40 @@
+﻿@model INF272SemesterTest2SectionB.Models.BookTypeViewModel
+
+@{
+    ViewBag.Title = "Question02";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Question 02</h2>
+
+<table class="table table-condensed table-hover">
+    <thead style="position: sticky;top: 0">
+        <tr>
+            <th width="33%">Book Type ID</th>
+            <th width="33%">Book Type Description</th>
+            <th width="33%" style="text-align:center">Average Ratings</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bookType in Model.BookTypes)
+            {
+        <tr>
+            <td>@bookType.BookTypeID</td>
+            <td>@bookType.BookTypeDescription</td>
+
+            @* Complete this line of code BELOW this line (3 marks).*@
+            @* -----------------------------------------------------*@
+            @* -----------------------------------------------------*@
+            @{ 
+                var type = Model.Books.Where(o => o.BookTypeID == bookType.BookTypeID);
+                var avg = type.Average(x => x.Rating);
+            }
+            <td style="text-align:center">@Math.Round(avg, 2)  </td>
+
+            @* -----------------------------------------------------*@
+            @* -----------------------------------------------------*@
+            @* Complete this line of code ABOVE this line.*@
+        </tr>
+            }
+    </tbody>
+</table>

@@ -1,0 +1,78 @@
+ html,
+ body {
+     height: 100%;
+     width: 100%;
+     padding: 0;
+     margin: 0;
+ }
+
+ .main-container {
+     height: 100%;
+     width: 100%;
+     background-color: white;
+     color: black;
+     padding-top: 1%;
+     box-sizing: border-box;
+     overflow-y: auto;
+     overflow-x: hidden;
+ }
+
+ .main-text {
+     padding-top: 2%;
+     padding-bottom: 2%;
+     font-size: 30.5px;
+     line-height: 35px;
+ }
+
+ .content {
+     box-sizing: border-box;
+     min-width: 500px;
+     max-width: 500px;
+     position: relative;
+     margin: auto;
+ }
+
+ td {
+     border: 1px solid black;
+     text-align: left;
+ }
+
+ .tdSpecial {
+     width: 100px;
+     align-items: center;
+     text-align: center;
+     background-color: black;
+     color: white;
+ }
+
+ .tdTxt {
+     align-items: center;
+     text-align: center;
+ }
+
+ .p {
+     font-size: medium;
+     text-align: center;
+ }
+
+ table {
+     margin: 15px 0;
+     border: 0px solid black;
+     border-collapse: separate;
+     table-layout: fixed;
+     width: 79%;
+ }
+
+ .specialTable {
+     border-width: 0px;
+ }
+
+ .button {
+     background-color: black;
+     border: none;
+     color: white;
+     padding: 3.5px 27px;
+     text-align: center;
+     display: inline-block;
+     font-size: 15px;
+ }
